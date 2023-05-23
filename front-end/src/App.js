@@ -1,4 +1,5 @@
 import './App.css';
+import CpuHand from './Components/CpuHand';
 import PlayerHand from './Components/PlayerHand';
 import Rules from './Components/Rules';
 import useHand from './Hooks/useHand' 
@@ -18,7 +19,11 @@ function App() {
     <div className="App">
       <Rules/>
       <div>
-        Your Hand
+        🤖Computer's Hand🤖
+        <CpuHand cards={cpuHand} />
+      </div>
+      <div>
+        🧍Your Hand🧍
         <PlayerHand cards={userHand} />
       </div>
     </div>
