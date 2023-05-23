@@ -8,8 +8,8 @@ export default function Rules() {
       <ol>
         <li>If the card type is different, the higher level wins.</li>
         <li>If the card type is same, the lower level wins.</li>
-        <li>If the level of two cards are the same, the one with higher power points wins</li>
-        <li>If both the level and power points are tied, the round ends with a draw</li>
+        <li>If the level of two cards are the same, the one with higher power points wins.</li>
+        <li>If both the level and power points are tied, the round ends with a draw.</li>
       </ol>
     </div>
   );

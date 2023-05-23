@@ -1,4 +1,5 @@
 import './App.css';
+import PlayerHand from './Components/PlayerHand';
 import Rules from './Components/Rules';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div>
 
         Your Hand
+        <PlayerHand />
       </div>
     </div>
   );
