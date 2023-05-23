@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Rules/>
       <div>
-
         Your Hand
         <PlayerHand />
       </div>
